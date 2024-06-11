@@ -1,0 +1,2 @@
+### Grok pattern for Dell idrac log 
+%{HOSTNAME} Severity: %{DATA:Severity}, Category: %{DATA:Category}, MessageID: %{DATA:MessageID}, Message: %{GREEDYDATA:Message}
